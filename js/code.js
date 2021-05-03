@@ -62,7 +62,7 @@ var resultado = '0';
 var valor1 ; 
 var valor2 ; 
 var operador  = '';
-var operadorAtual  = '';
+
 
 var flag = false;
 
