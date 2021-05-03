@@ -1,15 +1,26 @@
+.wraper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
+  width: 18em;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-radius: 6px;
   background: #c78282;
 }
 .container .numbers-containers {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1.5px;
 }
 .container .cero {
   display: flex;
