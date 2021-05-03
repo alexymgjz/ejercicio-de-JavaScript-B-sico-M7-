@@ -1,0 +1,41 @@
+.container {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #c78282;
+}
+.container .numbers-containers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .cero {
+  display: flex;
+}
+.container button {
+  width: 4em;
+  height: 3em;
+  border-radius: 6px;
+}
+.container .largeCe {
+  display: block;
+  width: 4em;
+}
+.container .large {
+  display: block;
+  width: 8em;
+}
+.container .larger {
+  width: 12em;
+}
+.container .screen {
+  width: 16em;
+  height: 3em;
+  padding: 0;
+  text-align: right;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-right: 15px;
+}

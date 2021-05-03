@@ -1,0 +1,42 @@
+.container{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(199, 130, 130);
+    .numbers-containers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .cero{
+    display: flex;
+    }
+    button{
+    width:4em ;
+    height: 3em;
+    border-radius: 6px;
+    }
+    .largeCe{
+    display: block;
+    width:4em;   
+    }
+    .large{
+    display: block;
+    width:8em;   
+    }
+    .larger{
+    width:12em;  
+    }
+    .screen{
+    width:16em ;
+    height: 3em;
+    padding: 0;
+    text-align: right;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-right:15px;
+    }
+} 
+
