@@ -1,52 +1,40 @@
-.wraper {
-  width: 100vw;
-  height: 100vh;
+body {
+  background-color: #a76612;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.container {
-  width: 18em;
-  padding: 1.5em;
+.wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  border-radius: 6px;
-  background: #c78282;
+  width: 50vw;
 }
-.container .numbers-containers {
+.wrapper .container-button {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  padding: 1.5px;
+  justify-content: center;
+  width: auto;
+  background-color: #423030;
 }
-.container .cero {
-  display: flex;
+.wrapper .container-button button {
+  margin: 1em;
 }
-.container button {
-  width: 4em;
-  height: 3em;
-  border-radius: 6px;
+.wrapper .container-button p {
+  text-align: center;
+  background-color: aqua;
+  width: 342px;
 }
-.container .largeCe {
-  display: block;
-  width: 4em;
+.wrapper .container-text {
+  width: auto;
+  background-color: #423030;
 }
-.container .large {
-  display: block;
-  width: 8em;
+.wrapper .container-text textarea {
+  margin: 1em;
 }
-.container .larger {
-  width: 12em;
-}
-.container .screen {
-  width: 16em;
-  height: 3em;
-  padding: 0;
-  text-align: right;
-  box-sizing: border-box;
-  border-radius: 6px;
-  padding-right: 15px;
+.wrapper .container-text p {
+  text-align: center;
+  background-color: aqua;
 }
